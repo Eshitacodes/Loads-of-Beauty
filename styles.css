@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Rochester&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Lovers+Quarrel&family=Rochester&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    
 }
 
 .container
@@ -25,20 +21,14 @@
     background-color:white ;
     width: 90%;
     height: 90vh;
-    
-    
 }
 .navbar .logo
 {
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     padding-left: 25px;
-    margin-top: 20px;
-    
-    
+    margin-top: 20px;   
 }
 
 .navbar
@@ -46,7 +36,6 @@
     width: 90%;
     margin: auto;
     height: 15vh;
-    
 }
 .navbar,.navlist
 {
@@ -54,24 +43,24 @@
     justify-content: space-between;
     align-items: center;
 }
-.navlist{
+.navlist
+{
     display: flex;
     border-bottom: 3px solid rgba(111,111,45,255);
 }
-.navlist li{
+.navlist li
+{
     list-style-type: none;
     padding: 20px;
-    
     font-family: 'Beau Rivage', cursive;
     font-family: 'Lovers Quarrel', cursive;
     font-family: 'Rochester', cursive;
-    
     color:rgba(111,111,45,255) ;
-
-margin-top: 30px;
+    margin-top: 30px;
 }
 
-.navlist a{
+.navlist a
+{
     color: rgba(111,111,45,255);
     text-decoration: none;
     font-size: 20px;
@@ -96,10 +85,8 @@ margin-top: 30px;
     width: 100%;
 }
 
-
-
-.hero{
-    
+.hero
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,8 +96,7 @@ margin-top: 30px;
 .hero img{
     width: 40vw;
     height: 30vw;
-    padding-right: 50px;
-    
+    padding-right: 50px;  
 }
 
 .content
@@ -123,30 +109,31 @@ margin-top: 30px;
     border-left: 3px solid rgba(72,74,34,255);
     padding: 50px;
     width: 70vw;
-    height: 30vw;
-    
+    height: 30vw;    
 }
 
-.content h3{
+.content h3
+{
     color: rgba(111,111,45,255);
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 3px;
 }
 
-.content h1{
+.content h1
+{
     color:rgba(180,103,129,255);
     font-family: 'Beau Rivage', cursive;
-    font-size: 50px;
-
-    
+    font-size: 50px;  
 }
 
-.content p{
+.content p
+{
     line-height: 30px;
 }
 
-.content button{
+.content button
+{
     padding: 15px 30px;
     font-size: 18px;
     background-color: rgba(72,74,34,255);
@@ -154,7 +141,9 @@ margin-top: 30px;
     color: white;
     cursor: pointer;
 }
-.content button:hover{
+
+.content button:hover
+{
     background-color: white;
     color:rgba(72,74,34,255);
 }
